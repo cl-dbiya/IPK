@@ -1,0 +1,5 @@
+c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\bin\Debug\IpPublicKnowledge.dll
+c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\bin\Debug\IpPublicKnowledge.pdb
+c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Debug\IpPublicKnowledge.csprojResolveAssemblyReference.cache
+c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Debug\IpPublicKnowledge.dll
+c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Debug\IpPublicKnowledge.pdb
