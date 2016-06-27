@@ -1,0 +1,6 @@
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\bin\Debug\IpPublicKnowledgeTest.exe
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\bin\Debug\IpPublicKnowledgeTest.pdb
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\bin\Debug\IpPublicKnowledge.dll
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\obj\Debug\IpPublicKnowledgeTest.csprojResolveAssemblyReference.cache
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\obj\Debug\IpPublicKnowledgeTest.exe
+C:\Users\Prog6\Documents\Visual Studio 2015\Projects1\IPK\IpPublicKnowledgeTest\obj\Debug\IpPublicKnowledgeTest.pdb
