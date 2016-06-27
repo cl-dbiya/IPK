@@ -7,9 +7,9 @@ namespace IpPublicKnowledge
 {
 	public static class IPK
 	{
-		public static string URLGetIP = "http://api.ipify.org";
+		private static string URLGetIP = "http://api.ipify.org";
 
-		public static string URLGetAdress = "http://ip-api.com/json/";
+		private static string URLGetAddress = "http://ip-api.com/json/";
 
 		/// <summary>
 		/// Resolves the public IP address and returns it as a string.
@@ -54,7 +54,7 @@ namespace IpPublicKnowledge
 
 
 				//get all IP related information from the webservice.
-				var json = wc.DownloadString(URLGetAdress + ip.ToString());
+				var json = wc.DownloadString(URLGetAddress + ip.ToString());
 
 				IPI data = new JavaScriptSerializer().Deserialize<IPI>(json);
 
@@ -75,7 +75,7 @@ namespace IpPublicKnowledge
 			}
 		}
 
-		public static void setLanguage(ref IPI data)
+		private static void setLanguage(ref IPI data)
 		{
 
 			var cinfo = CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures);

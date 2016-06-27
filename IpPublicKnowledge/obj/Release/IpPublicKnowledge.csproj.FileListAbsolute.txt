@@ -3,3 +3,8 @@ c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublic
 c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Release\IpPublicKnowledge.dll
 c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Release\IpPublicKnowledge.pdb
 c:\users\prog6\documents\visual studio 2015\Projects1\IpPublicKnowledge\IpPublicKnowledge\obj\Release\IpPublicKnowledge.csprojResolveAssemblyReference.cache
+C:\Users\Prog6\Documents\visual studio 2015\Projects1\IPK\IpPublicKnowledge\bin\Release\IpPublicKnowledge.dll
+C:\Users\Prog6\Documents\visual studio 2015\Projects1\IPK\IpPublicKnowledge\bin\Release\IpPublicKnowledge.pdb
+C:\Users\Prog6\Documents\visual studio 2015\Projects1\IPK\IpPublicKnowledge\obj\Release\IpPublicKnowledge.csprojResolveAssemblyReference.cache
+C:\Users\Prog6\Documents\visual studio 2015\Projects1\IPK\IpPublicKnowledge\obj\Release\IpPublicKnowledge.dll
+C:\Users\Prog6\Documents\visual studio 2015\Projects1\IPK\IpPublicKnowledge\obj\Release\IpPublicKnowledge.pdb
