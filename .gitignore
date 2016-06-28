@@ -1,0 +1,4 @@
+####
+# Ignores the environment specific configuration files
+##
+packages/
