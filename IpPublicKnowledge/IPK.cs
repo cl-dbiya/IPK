@@ -25,9 +25,9 @@ namespace IpPublicKnowledge
 				WebClient wc = new WebClient();
 
 				//get MyPublic IP
-				var json = wc.DownloadString(URLGetIP);
+				var PublicIP = wc.DownloadString(URLGetIP);
 
-				return IPAddress.Parse(json);
+				return IPAddress.Parse(PublicIP);
 			}
 			catch
 			{
@@ -37,7 +37,7 @@ namespace IpPublicKnowledge
 		}
 
 		/// <summary>
-		/// Resolves all The information about the Public Op address
+		/// Resolves all The information about the Any given Public IP address
 		/// </summary>
 		/// <param name="IPAddress">
 		/// IP address to be resolved
@@ -56,17 +56,15 @@ namespace IpPublicKnowledge
 				//get all IP related information from the webservice.
 				var json = wc.DownloadString(URLGetAddress + ip.ToString());
 
-				IPI data = new JavaScriptSerializer().Deserialize<IPI>(json);
-
-				var cultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
+				IPI IpInfo = new JavaScriptSerializer().Deserialize<IPI>(json);
 
 				//return IP
-				data.IP = ip;
+				IpInfo.IP = ip;
 
 				//set Languages
-				setLanguage(ref data);
-				return data;
+				IpInfo.setLanguage();
 
+				return IpInfo;
 			}
 			catch (System.Exception ex)
 			{
@@ -75,25 +73,6 @@ namespace IpPublicKnowledge
 			}
 		}
 
-		private static void setLanguage(ref IPI data)
-		{
-
-			var cinfo = CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures);
-			data.languages = new Dictionary<string, string>();
-			try
-			{
-				foreach (CultureInfo cul in cinfo)
-				{
-					if (cul.DisplayName.Contains(data.country + ")"))
-					{
-						data.languages.Add(cul.Name, cul.DisplayName);
-					}
-				}
-			}
-			catch (System.Exception ex)
-			{
-				System.Console.WriteLine(ex.Message);
-			}
-		}
+		
 	}
 }

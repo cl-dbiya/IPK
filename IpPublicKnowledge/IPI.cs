@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 
 namespace IpPublicKnowledge
 {
@@ -38,5 +39,26 @@ namespace IpPublicKnowledge
 		public Dictionary<string, string> languages { get; set; }
 
 		public IPI() { }
+
+		public void setLanguage()
+		{
+
+			var cinfo = CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures);
+			this.languages = new Dictionary<string, string>();
+			try
+			{
+				foreach (CultureInfo cul in cinfo)
+				{
+					if (cul.DisplayName.Contains(this.country + ")"))
+					{
+						this.languages.Add(cul.Name, cul.DisplayName);
+					}
+				}
+			}
+			catch (System.Exception ex)
+			{
+				System.Console.WriteLine(ex.Message);
+			}
+		}
 	}
 }

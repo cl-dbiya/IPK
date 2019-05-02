@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpPublicKnowledge", "IpPublicKnowledge\IpPublicKnowledge.csproj", "{92E1C3CC-FB15-498D-9DDB-7B7E4A538837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpPublicKnowledgeTest", "..\IpPublicKnowledgeTest\IpPublicKnowledgeTest\IpPublicKnowledgeTest.csproj", "{6DCE8F42-94F2-4E13-B258-B8BAA6A40BFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpPublicKnowledgeTest", "IpPublicKnowledgeTest\IpPublicKnowledgeTest.csproj", "{6DCE8F42-94F2-4E13-B258-B8BAA6A40BFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

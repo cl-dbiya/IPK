@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CD455243-5B9B-4C69-9C00-3755DF6B3EAC}</ProjectGuid>
+    <ProjectGuid>{6DCE8F42-94F2-4E13-B258-B8BAA6A40BFC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IpPublicKnowledgeTest</RootNamespace>
